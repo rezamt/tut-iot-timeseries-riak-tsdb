@@ -3,7 +3,7 @@ You can start a simple Riak TS cluster using docker-compose. Create a working di
 
 Note: the coordinator node is the first one to be started in the cluster and is the node to which all the others will join. It's also the only container exposed on a predictable port.
 Note: Alternatively you can pull the docker image from: docker pull basho/riak-ts
-
+```
 version: "2"
 services:
   coordinator:
@@ -35,6 +35,8 @@ services:
 volumes:
   schemas:
     external: false
+```
+
 If you bring up the cluster now, you'll get a single-node cluster.
 
 $ docker-compose up -d coordinator
