@@ -1,10 +1,21 @@
+# What is Riak TSDB ? 
+The Internet of Things (IoT) or the Internet of Everything is changing the way companies interact with their customers and manage their data. 
+
+These connected devices generate high volume time series data that can be created in milliseconds. This fast growth of IoT data and other time series data is producing challenges for enterprise applications where data must
+be collected, saved, and analyzed in the blink of an eye. 
+
+Your application needs a database built to uniquely handle time series data to ensure your data is continuously available and accurate.
+
+Ref: http://info.basho.com/rs/721-DGT-611/images/RiakTS-Enterprise-Technical-Overview.PDF
+
+
 # Starting a Riak TS cluster
 You can start a simple Riak TS cluster using docker-compose. Create a working directory named riak and inside that directory create a file named docker-compose.yml based on the following example.
 
 Note: the coordinator node is the first one to be started in the cluster and is the node to which all the others will join. It's also the only container exposed on a predictable port.
 Note: Alternatively you can pull the docker image from: 
 ```
-docker pull basho/riak-ts
+$ docker pull basho/riak-ts
 ```
 Docker compose file is: 
 
