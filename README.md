@@ -1,4 +1,11 @@
-# What is Riak TSDB ? 
+# Overview
+I was looking at Time series databases to store my analytics data, and I found two options, Influx DB and Riak. I think Influx is in the market for a long time and is one of the guys who support both Regular and Iregular time series (not evenly distributed). 
+
+I found Riak, which sounds really cool. So I decided to document my experience, maybe someone needs to get a quick and short review on it.
+
+There are plenty of doucments and materials on http://basho.com
+
+# What is Riak (specially Riak TS)? 
 The Internet of Things (IoT) or the Internet of Everything is changing the way companies interact with their customers and manage their data. 
 
 These connected devices generate high volume time series data that can be created in milliseconds. This fast growth of IoT data and other time series data is producing challenges for enterprise applications where data must
