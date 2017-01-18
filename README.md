@@ -117,8 +117,8 @@ Usage: riak-admin { cluster | join | leave | backup | restore | test |
 
 # References
 
-1- Basho (basho.com)
-2- Slideshare (http://www.slideshare.net/clibou/riak-ts)
-3- Riak TS Getting Started (http://info.basho.com/rs/721-DGT-611/images/Getting-Started-with-Riak-TS.pdf)
-4- Riak TS Ref Arc (http://info.basho.com/rs/721-DGT-611/images/RiakTS-Enterprise-Technical-Overview.PDF)
+- Basho (basho.com)
+- Slideshare (http://www.slideshare.net/clibou/riak-ts)
+- Riak TS Getting Started (http://info.basho.com/rs/721-DGT-611/images/Getting-Started-with-Riak-TS.pdf)
+- Riak TS Ref Arc (http://info.basho.com/rs/721-DGT-611/images/RiakTS-Enterprise-Technical-Overview.PDF)
 
