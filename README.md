@@ -8,6 +8,26 @@ Your application needs a database built to uniquely handle time series data to e
 
 Ref: http://info.basho.com/rs/721-DGT-611/images/RiakTS-Enterprise-Technical-Overview.PDF
 
+# Database Models
+
+Riak KV: Usecases
+
+- Mutable Data
+- Documents, JSON, metadata
+- Session state
+- User/customer data
+- Transactions histories
+- Archives
+
+
+Riak TS: Usercase
+
+- Immutable Data
+- Infra. Monitoring / metrics
+- Real-time analytics
+- IoT / Sensor Data
+- Financial Data
+- Scientific Observations
 
 # Starting a Riak TS cluster
 You can start a simple Riak TS cluster using docker-compose. Create a working directory named riak and inside that directory create a file named docker-compose.yml based on the following example.
