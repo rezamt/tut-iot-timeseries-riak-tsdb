@@ -38,8 +38,9 @@ volumes:
 ```
 
 If you bring up the cluster now, you'll get a single-node cluster.
-
+```javascript
 $ docker-compose up -d coordinator
+```
 When the cluster has started, open Riak Explorer in the browser by navigating to localhost:8098/admin/.
 
 You can now create bucket types and Riak TS tables using the explorer web UI. There is also a comprehensive REST API your applications can leverage when interacting with this Dockerized cluster.
