@@ -13,8 +13,6 @@ be collected, saved, and analyzed in the blink of an eye.
 
 Your application needs a database built to uniquely handle time series data to ensure your data is continuously available and accurate.
 
-Ref: http://info.basho.com/rs/721-DGT-611/images/RiakTS-Enterprise-Technical-Overview.PDF
-
 # Database Models
 
 Riak KV: Usecases
@@ -91,4 +89,36 @@ You can now create bucket types and Riak TS tables using the explorer web UI. Th
 # Riak Cluster Explorer API
 The Riak Explorer project provides REST APIs for data viewing and cluster management for Riak clusters.
 https://basho-labs.github.io/riak_explorer/docs/api.html
+
+# Riak TS Admin Dashboard
+You can access Riak TS admin dashboard on: http://localhost:8098/admin
+
+You can also communicate with Riak using admin command: 
+
+```
+# riak-admin
+Usage: riak-admin { cluster | join | leave | backup | restore | test |
+                    reip | js-reload | erl-reload | wait-for-service |
+                    ringready | transfers | force-remove | down |
+                    cluster-info | member-status | ring-status | vnode-status |
+                    aae-status | diag | stat | status | transfer-limit | reformat-indexes |
+                    top [-interval N] [-sort reductions|memory|msg_q] [-lines N] |
+                    downgrade-objects | security | bucket-type | repair-2i |
+                    search | services | ensemble-status | handoff | set |
+                    timezone | show | describe }
+
+```
+# Riak TS: Write Performance
+- 130K writes / second
+- 5 nodes (bare metal, softlayer)
+- 6-cores + HT (12 logical cores)
+- 32 GB
+- 800 GB SSD x3 (RAID0)
+
+# References
+
+1- Basho (basho.com)
+2- Slideshare (http://www.slideshare.net/clibou/riak-ts)
+3- Riak TS Getting Started (http://info.basho.com/rs/721-DGT-611/images/Getting-Started-with-Riak-TS.pdf)
+4- Riak TS Ref Arc (http://info.basho.com/rs/721-DGT-611/images/RiakTS-Enterprise-Technical-Overview.PDF)
 
