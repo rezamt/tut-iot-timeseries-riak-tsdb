@@ -2,7 +2,12 @@
 You can start a simple Riak TS cluster using docker-compose. Create a working directory named riak and inside that directory create a file named docker-compose.yml based on the following example.
 
 Note: the coordinator node is the first one to be started in the cluster and is the node to which all the others will join. It's also the only container exposed on a predictable port.
-Note: Alternatively you can pull the docker image from: docker pull basho/riak-ts
+Note: Alternatively you can pull the docker image from: 
+```
+docker pull basho/riak-ts
+```
+Docker compose file is: 
+
 ```
 version: "2"
 services:
